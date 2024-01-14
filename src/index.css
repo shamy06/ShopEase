@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .Header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+    color: #f0f9ff;
+    background-color: rgb(28, 27, 27);
+    min-height: 5rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  
+  .Header .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .dropdown {
+    display: inline;
+    margin-left: 3rem;
+    margin-right: 4.5rem;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 36px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgb(84, 72, 72);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+    color: rgb(255, 252, 252);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    justify-content: space-between;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    margin-left: 2.3rem;
+    margin-top: -1rem;
+    z-index: 8;
+  }
+  
+  
+  a.icon {
+    display: none;
+  }

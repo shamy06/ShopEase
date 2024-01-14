@@ -85,7 +85,7 @@
   display: none;
 }
 .swiper-button-next {
-  background-image: url(./Test1.png);
+  background-image: url(./Components/Assest/Test1.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -94,7 +94,7 @@
   display: none;
 }
 .swiper-button-prev {
-  background-image: url(./Test2.png);
+  background-image: url(./Components/Assest/Test2.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -1856,9 +1856,6 @@ table td {
   display: flex;
   align-content: center;
   justify-content: center;
-}
-.PlaceOrder2>h4{
-  
 }
 
 .footer-dark {
