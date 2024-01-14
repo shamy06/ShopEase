@@ -15,7 +15,7 @@ import ProductList from "./Components/ProductList";
 import Sidebar from "./Components/Sidebar";
 import Login from "./Components/Login";
 import Registration from "./Components/Registration";
-import PlaceOrder from "./Components/finalOrder";
+import PlaceOrder from "./Components/FinalOrder";
 import ScrollToTop from "./Components/ScrollTop";
 import "./App.css";
 
