@@ -1,7 +1,7 @@
-### `E-Commerce-Shopping-Cart-Web-App-Redux-Way`
+### `E-Commerce-Shopping-Cart-Web-App-React-Query and Context API`
 Shopping Cart is a customer-facing application, enabling product browsing, detailed viewing, cart management, wishlist functionality, and user login. Implemented Jest for comprehensive unit testing. 
 
-### `Technology and Libraries` : React js, Redux, GitHub, HTML, CSS, Javascript, MaterialUI, Form, React-Toastify, Redux-Thunk, Slick-Carousel
+### `Technology and Libraries` : React js, React Query, Context API,Jest, React Testing Library, GitHub, HTML, CSS, Javascript, MaterialUI, Form, React-Toastify, Slick-Carousel
 
 ## Available Scripts
 
