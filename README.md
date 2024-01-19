@@ -1,7 +1,11 @@
-### `E-Commerce-Shopping-Cart-Web-App-Redux-Way`
+### `E-Commerce-Shopping-Cart-Web-App
+###                                 1-Redux-Way, backend:- DUMMY JSON MOCK API
+###                                 2-React-Query, Context API, Jest and React Testing Library, Backend:- Spring Boot.
+
 Shopping Cart is a customer-facing application, enabling product browsing, detailed viewing, cart management, wishlist functionality, and user login. Implemented Jest for comprehensive unit testing. 
 
-### `Technology and Libraries` : React js, Redux, GitHub, HTML, CSS, Javascript, MaterialUI, Form, React-Toastify, Redux-Thunk, Slick-Carousel
+### `Technology and Libraries` : React js, GitHub, HTML, CSS, Javascript, MaterialUI, Form, React-Toastify, eRedux,
+###                              Redux-Thunk, React-Query, Context-API, Jest, React Testing Library, Slick-Carousel
 
 ## Available Scripts
 
