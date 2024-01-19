@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/Components/AddToCart.js</title>
+    <title>Code coverage report for src/Components/BuynowButton.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/Components</a> AddToCart.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/Components</a> BuynowButton.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>12/12</span>
+                <span class='fraction'>11/11</span>
             </div>
         
             
@@ -39,7 +39,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>4/4</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
@@ -107,80 +107,80 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">37x</span>
-<span class="cline-any cline-yes">37x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">37x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">60x</span>
+<span class="cline-any cline-yes">60x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">37x</span>
+<span class="cline-any cline-yes">60x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">60x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">37x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">60x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { memo } from "react";
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Button, styled } from "@mui/material";
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
-import { useCart, useSnackBar } from "./cartContext";
+import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
+import { useBuynow } from "./cartContext";
+import "../Component.css";
 &nbsp;
-const AddtoCart = ({ id, title }) =&gt; {
-  const { addItem, cartItems } = useCart();
-  const { addSnackbarItem } = useSnackBar();
+const BuynowButton = ({ id }) =&gt; {  
+  const { addBuynowItem } = useBuynow();
+  const navigate = useNavigate();
 &nbsp;
+  const handleClick = (id) =&gt; {
+    if (localStorage.getItem("signUp")) {
+      addBuynowItem({id:id})
+      navigate("/buynow");
+    } else {
+      navigate("/login");
+    }
+  };
+  
   const MyButton = styled(Button)({
     border: 0,
-    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-    fontWeight: 'bolder',
-    fontFamily: ['Arial', 'Helvetica', 'sans-serif'],
-    '@media (min-width: 300px) and (max-width:900px)': {
-      fontSize: '1rem'
+    variant: "contained",
+    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+    borderRadius: 3,
+    fontWeight: "bolder",
+    fontFamily: ["Arial", "Helvetica", "sans-serif"],
+    "@media (min-width: 300px) and (max-width:900px)": {
+      fontSize: "1rem",
     },
   });
 &nbsp;
-  const handleClick = (id) =&gt; {
-    if (cartItems.some((item) =&gt; item.id === id)) {
-        addSnackbarItem(true,`${title} is already added`,"info");
-    } else {
-      addSnackbarItem(true,`${title} is added to cart Successfully`,"success");
-      addItem({
-        id: id
-      });
-    }
-  };
-&nbsp;
   return (
-    &lt;&gt;
-      &lt;MyButton onClick={() =&gt; handleClick(id)} startIcon={&lt;ShoppingBasketIcon /&gt;}&gt;
-        Add Cart
-      &lt;/MyButton&gt;
-    &lt;/&gt;
+    &lt;MyButton onClick={() =&gt; handleClick(id)} startIcon={&lt;CurrencyRupeeIcon /&gt;}&gt;
+      Buy Now
+    &lt;/MyButton&gt;
   );
 };
 &nbsp;
-export default memo(AddtoCart);</pre></td></tr></table></pre>
+export default BuynowButton;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

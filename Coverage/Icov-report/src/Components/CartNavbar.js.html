@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/Components/AddToCart.js</title>
+    <title>Code coverage report for src/Components/CartNavbar.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/Components</a> AddToCart.js</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/Components</a> CartNavbar.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>12/12</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>4/4</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>11/11</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
@@ -102,37 +102,17 @@
 <a name='L37'></a><a href='#L37'>37</a>
 <a name='L38'></a><a href='#L38'>38</a>
 <a name='L39'></a><a href='#L39'>39</a>
-<a name='L40'></a><a href='#L40'>40</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">37x</span>
-<span class="cline-any cline-yes">37x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">37x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">37x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">37x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -141,46 +121,81 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { memo } from "react";
-import { Button, styled } from "@mui/material";
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
-import { useCart, useSnackBar } from "./cartContext";
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React,{ memo } from "react";
+import { Link } from "react-router-dom";
+import { Box } from "@mui/material";
+import { makeStyles } from "@mui/styles";
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import "../Component.css";
 &nbsp;
-const AddtoCart = ({ id, title }) =&gt; {
-  const { addItem, cartItems } = useCart();
-  const { addSnackbarItem } = useSnackBar();
-&nbsp;
-  const MyButton = styled(Button)({
-    border: 0,
-    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-    fontWeight: 'bolder',
-    fontFamily: ['Arial', 'Helvetica', 'sans-serif'],
-    '@media (min-width: 300px) and (max-width:900px)': {
-      fontSize: '1rem'
+const useCartNavbarStyles = makeStyles({
+  cartNavbar: {
+    color: "white",
+    marginTop: "8px",
+    display: 'flex',
+    '@media (min-width: 0px) and (max-width:600px)': {
+      display: 'none'
     },
-  });
+    '@media (min-width: 600px) and (max-width:900px)': {
+      marginRight: '.5rem'
+    },
+    flexGrow: 1
+  },
+  cartCount: {
+    color: 'white',
+    marginTop: '-.6rem',
+    fontSize: '18px'
+  },
+})
 &nbsp;
-  const handleClick = (id) =&gt; {
-    if (cartItems.some((item) =&gt; item.id === id)) {
-        addSnackbarItem(true,`${title} is already added`,"info");
-    } else {
-      addSnackbarItem(true,`${title} is added to cart Successfully`,"success");
-      addItem({
-        id: id
-      });
-    }
-  };
-&nbsp;
+const CartNavbar = ({ cartsItemCount }) =&gt; {
+  const classes = useCartNavbarStyles();
   return (
     &lt;&gt;
-      &lt;MyButton onClick={() =&gt; handleClick(id)} startIcon={&lt;ShoppingBasketIcon /&gt;}&gt;
-        Add Cart
-      &lt;/MyButton&gt;
+      &lt;Box className={classes.cartNavbar}&gt;
+        &lt;Link to="/cart"&gt;
+          &lt;ShoppingCartIcon fontSize="large"
+          /&gt;
+        &lt;/Link&gt;
+        &lt;Box className={classes.cartCount}&gt;
+          {cartsItemCount &gt; 0 ? cartsItemCount : false}
+        &lt;/Box&gt;
+      &lt;/Box&gt;
     &lt;/&gt;
   );
 };
 &nbsp;
-export default memo(AddtoCart);</pre></td></tr></table></pre>
+export default memo(CartNavbar);</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
