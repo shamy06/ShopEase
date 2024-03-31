@@ -23,9 +23,9 @@ ShopEase is a customer-facing application, enabling product browsing, detailed v
 
  ## Test Coverage 
  ![test screen](Test-Coverage-Png/src-comp-util.png "test-src-util screen")
- ![test screen](Test-Coverage-Png/src-comp-Test-1.png "Test-src-comp screen")
- ![test screen](Test-Coverage-Png/src-comp-Test-2.png "Test-src-comp screen")
- ![test screen](Test-Coverage-Png/src-comp-Test-3.png "Test-src-comp screen")
+ ![test screen](Test-Coverage-Png/Src-Comp-Test-1.png "Test-src-comp screen")
+ ![test screen](Test-Coverage-Png/Src-Comp-Test-2.png "Test-src-comp screen")
+ ![test screen](Test-Coverage-Png/Src-Comp-Test-3.png "Test-src-comp screen")
  ![test-index screen](Test-Coverage-Png/index.png "index screen")
 
 ## Available Scripts
