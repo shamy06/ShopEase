@@ -2,10 +2,31 @@
 ###                                 1-Redux-Way, backend:- DUMMY JSON MOCK API
 ###                                 2-React-Query, Context API, Jest and React Testing Library, Backend:- Spring Boot.
 
-Shopping Cart is a customer-facing application, enabling product browsing, detailed viewing, cart management, wishlist functionality, and user login. Implemented Jest for comprehensive unit testing. 
+ShopEase is a customer-facing application, enabling product browsing, detailed viewing, cart management, wishlist functionality, and user login. Implemented Jest for comprehensive unit testing. 
 
 ### `Technology and Libraries` : React js, GitHub, HTML, CSS, Javascript, MaterialUI, Form, React-Toastify, eRedux,
 ###                              Redux-Thunk, React-Query, Context-API, Jest, React Testing Library, Slick-Carousel
+
+## Screens
+ (output-Screens/Home.png "Home screen") 
+ (output-Screens/ProductDetail.png "ProductDetail screen")
+ (output-Screens/ProductDetails.png "ProductDetails screen")
+ (output-Screens/CategoriesDrop.png "CategoriesDrop screen")
+ (output-Screens/Categories.png "Categories screen")
+ (output-Screens/CartAdded.png "CartAdded screen")
+ (output-Screens/Cart.png "Cart screen")
+ (output-Screens/RemovedFromCart.png "RemovedFromCart screen")
+ (output-Screens/Buynow.png "Buynow screen")
+ (output-Screens/Address.png "Address screen")
+ (output-Screens/Coupon.png "Coupon screen")
+ (output-Screens/DiscountCoupn.png "DiscountCoupon screen")
+
+ ## Test Coverage 
+ (output-Screens/src-comp-util.png "test-src-util screen")
+ (output-Screens/src-comp-Test-1.png "Test-src-comp screen")
+ (output-Screens/src-comp-Test-2.png "Test-src-comp screen")
+ (output-Screens/src-comp-Test-3.png "Test-src-comp screen")
+ (output-Screens/index.png "index screen")
 
 ## Available Scripts
 
