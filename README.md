@@ -8,25 +8,25 @@ ShopEase is a customer-facing application, enabling product browsing, detailed v
 ###                              Redux-Thunk, React-Query, Context-API, Jest, React Testing Library, Slick-Carousel
 
 ## Screens
- (output-Screens/Home.png "Home screen") 
- (output-Screens/ProductDetail.png "ProductDetail screen")
- (output-Screens/ProductDetails.png "ProductDetails screen")
- (output-Screens/CategoriesDrop.png "CategoriesDrop screen")
- (output-Screens/Categories.png "Categories screen")
- (output-Screens/CartAdded.png "CartAdded screen")
- (output-Screens/Cart.png "Cart screen")
- (output-Screens/RemovedFromCart.png "RemovedFromCart screen")
- (output-Screens/Buynow.png "Buynow screen")
- (output-Screens/Address.png "Address screen")
- (output-Screens/Coupon.png "Coupon screen")
- (output-Screens/DiscountCoupn.png "DiscountCoupon screen")
+ ![Home screen](output-Screens/Home.png "Home screen") 
+ ![PD screen](output-Screens/ProductDetail.png "ProductDetail screen")
+ ![PD screen](output-Screens/ProductDetails.png "ProductDetails screen")
+ ![CategoriesDrop screen](output-Screens/CategoriesDrop.png "CategoriesDrop screen")
+ ![Categories screen](output-Screens/Categories.png "Categories screen")
+ ![CartAdd screen](output-Screens/CartAdded.png "CartAdded screen")
+ ![Cart screen](output-Screens/Cart.png "Cart screen")
+ ![Remove screen](output-Screens/RemovedFromCart.png "RemovedFromCart screen")
+ ![Buynow screen](output-Screens/Buynow.png "Buynow screen")
+ ![Address screen](output-Screens/Address.png "Address screen")
+ ![Coupon screen](output-Screens/Coupon.png "Coupon screen")
+ ![Discount screen](output-Screens/DiscountCoupn.png "DiscountCoupon screen")
 
  ## Test Coverage 
- (output-Screens/src-comp-util.png "test-src-util screen")
- (output-Screens/src-comp-Test-1.png "Test-src-comp screen")
- (output-Screens/src-comp-Test-2.png "Test-src-comp screen")
- (output-Screens/src-comp-Test-3.png "Test-src-comp screen")
- (output-Screens/index.png "index screen")
+ ![test screen](output-Screens/src-comp-util.png "test-src-util screen")
+ ![test screen](output-Screens/src-comp-Test-1.png "Test-src-comp screen")
+ ![test screen](output-Screens/src-comp-Test-2.png "Test-src-comp screen")
+ ![test screen](output-Screens/src-comp-Test-3.png "Test-src-comp screen")
+ ![test-index screen](output-Screens/index.png "index screen")
 
 ## Available Scripts
 
